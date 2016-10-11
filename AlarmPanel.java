@@ -21,7 +21,7 @@ public class AlarmPanel extends JPanel {
 		alarmLabel.setFont(new Font("SansSerif", Font.BOLD, 36));
 
 		resetButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
-		resetButton.setToolTipText("µã»÷Ïû³ı±¨¾¯");
+		resetButton.setToolTipText("Click to reset");
 		resetButton.setVisible(false);
 		resetButton.addActionListener((event) -> reset());
 
